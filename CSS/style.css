@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    outline:royalblue;
+    text-decoration:none !important;
+}
+
+.goodvibes_form{
+    height: 100vh;
+    background-image: url('/form_activity/IMAGE/GDV2.jpg');
+    background-size: cover;
+    display: flex;
+    align-items : center;
+    justify-content :center;
+}
+
+.goodvibes_form .box{
+    min-width: 1000px;
+    min-height: 900px;
+    background-color:paleturquoise;
+    box-shadow: 0px 0px 10px black;
+}
