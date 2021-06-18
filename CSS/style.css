@@ -1,15 +1,23 @@
+<<<<<<< HEAD
 body{
-    margin:auto;
-    padding:0%;
+    margin:0;
+    padding:0;
     font-family: sans-serif;
+=======
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+>>>>>>> 655f2b38ad14d01e0026397f4edacd834f474ba3
 }
 
-*{
-    box-sizing: border-box;
-    outline:royalblue;
-    text-decoration:none !important;
+* {
+  box-sizing: border-box;
+  outline: royalblue;
+  text-decoration: none !important;
 }
 .header {
+<<<<<<< HEAD
     background-color: turquoise;
     padding: 30px;
     text-align: center;
@@ -142,3 +150,97 @@ label {
   cursor: pointer;
 }
 
+=======
+  background-color: turquoise;
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  color: black;
+  font-weight: bolder;
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
+  border-style: solid;
+}
+.subheading {
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  font-weight: lighter;
+}
+.goodvibes-form {
+  height: 100vh;
+  background-image: url("/form_activity/IMAGE/GDV3.webp");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.goodvibes-form .box {
+  min-width: 1000px;
+  min-height: 900px;
+  background-color: paleturquoise;
+  box-shadow: 0px 0px 10px black;
+  padding: 40px;
+  box-align: center;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+}
+.goodvibes-form .box .form-fields {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+.goodvibes-form .box .form-fields .input-box {
+  position: relative;
+}
+.goodvibes-form .box .form-fields .input-box .form-control {
+  height: 40px;
+}
+
+.dropbtn {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.select {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 13px 20px;
+  text-decoration: lightskyblue;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: lightblue;
+}
+>>>>>>> 655f2b38ad14d01e0026397f4edacd834f474ba3
