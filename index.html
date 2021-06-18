@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +15,7 @@
             <div class="header">
                 <h1>Good Vibes Form</h1>
             </div>
+
             <div class="box">
                 <div class="subheading">
                     <h2>Tell us something positive that happened to you today!!</h2>
@@ -23,49 +25,54 @@
                         <label for="fname">Name</label>
                         <input type="text" placeholder="Enter your name" class="form-control">
                     </div>
-                    <p> </p>
+                    <br>
                     <div class="input-box">
                         <label for="email">Email</label>
                         <input type="text" placeholder="Enter your email" class="form-control">
                     </div>
-                    <p> </p>
+                    <br>
                     <div class="input-box">
                         <label for="scale">On a scale of 1-10, how good was it? </label>
                         <input type="text" placeholder=" Enter a number from 1-10 " class="form-control">
                     </div>
-                    <p> </p>
+                    <br>
                     <div class="dropdown">
                         <label for="situation">Where did it happen ?</label>
-                        <button class="dropbtn">select</button>
-                        <div class="dropdown-content">
-                            <a href="#">At school </a>
-                            <a href="#">At home </a>
-                            <a href="#">other</a>
-                        </div>
-                      </div>
-                    <div class="input-box">
-                        <label for="time">At what time of day did it happen? </label>
-                      <div class="container">
-                        <label for="morning">morning</label>
-                        <input type="radio" id="day" name="time" value="morning">
-                        <label for="afternoon">Afternoon</label>
-                        
-                        <input type="radio" id="day" name="time" value="afternoon">
-                        <label for="evening">Evening</label>
-                        
-                        <input type="radio" id="day" name="time" value="evening">
+                        <select class="dropbtn" name="place" id="place">
+                            <option value="School">School</option>
+                            <option value="Home">Home</option>
+                            <option value="Other">Other</option>
+                        </select>
                     </div>
-               </div>
-                     <div class="textarea">
-                        <label for="experience">Please describe your positive experiences</label>  
+                    <br>
+                    <div>
+                        <label for="time">At what time of day did it happen? </label>
+                        <div class="container">
+                            <div class="form-radio">
+                                <input type="radio" name="time" value="morning">
+                                <label for="morning">morning</label>
+                            </div>
+                            <div class="form-radio">
+                                <input type="radio" name="time" value="afternoon">
+                                <label for="afternoon">Afternoon</label>
+                            </div>
+                            <div class="form-radio">
+                                <input type="radio" name="time" value="evening">
+                                <label for="evening">Evening</label>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="textarea">
+                        <label for="experience">Please describe your positive experiences</label>
                         <textarea id="experience" name="subject" placeholder="Write your experience..">
-                        </textarea>                   
-                     </div>
-                     <div class="submit_button">
-                        <input type="submit" value="Submit">
-                      </div>
+                        </textarea>
+                    </div>
+                    <div class="submit_button">
+                        <button class="dropbtn" type="submit">Submit</button>
+                    </div>
+                </div>
             </div>
-        </div>
         </form>
     </section>
 </body>
