@@ -1,6 +1,6 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin:auto;
+    padding:0%;
     font-family: sans-serif;
 }
 
@@ -20,9 +20,10 @@ body{
     border-bottom: 1px solid;
     padding-bottom: 3px;
     border-style:solid;
+    margin: 20px 0px 1px;
     
   }
-  .subheading{
+.subheading{
     padding: 30px;
     text-align: center;
     font-size: 20px;
@@ -32,7 +33,7 @@ body{
   }
 .goodvibes-form{
     height: 100vh;
-    background-image: url('/form_activity/IMAGE/GDV3.webp');
+    background-image: url('/IMAGE/GDV3.webp');
     background-size: cover;
     display: flex;
     align-items : center;
@@ -40,11 +41,11 @@ body{
 }
 
 .goodvibes-form .box{
-    min-width: 1000px;
-    min-height: 900px;
+    min-width: 600px;
+    min-height: 800px;
     background-color:paleturquoise;
     box-shadow: 0px 0px 10px black;
-    padding: 40px;
+    padding: 10px;
     box-align: center;
     border-style: solid;
     display: flex;
@@ -55,11 +56,32 @@ body{
     flex-direction: column;
     width : 100px;
 }
+label {
+  padding: 12px 12px 12px 0;
+  display:inline-flex;
+  width:400%;
+  margin-top:6px;
+  
+}
 .goodvibes-form .box .form-fields .input-box{
     position:relative;
+    margin-top: 6px;
+    width:300%;
+    box-sizing: border-box;
+    
 }
 .goodvibes-form .box .form-fields .input-box .form-control{
+  
     height: 40px;
+    width:400px;
+    padding: 12px;
+    color:#444444;
+    border:1px solid #cccccc;
+    border-radius: 4px;
+}
+.goodvibes-form .box .form-fields .input-box .form-control::placeholder{
+  color:#cccccc;
+  
 }
 
 .dropbtn {
@@ -74,6 +96,7 @@ body{
   .select {
     position:relative;
     display: inline-block;
+    cursor: pointer;
   }
   
   .dropdown-content {
@@ -101,3 +124,21 @@ body{
   .dropdown:hover .dropbtn {
     background-color:lightblue;
   }
+.container{
+  display: block;
+  position: relative;
+  padding-left: 13px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container .input{
+  position: absolute;
+  opacity:0;
+  cursor: pointer;
+}
+
