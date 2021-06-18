@@ -142,5 +142,21 @@ body {
   opacity:0;
   cursor: pointer;
 }
+.textarea {
+  width: 400%;
+  height: 150px;
+  font-size: 16px;
+  
+}
+.submit_button {
+  content: "";
+  display: table;
+  clear:right;
+  padding: 10px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  
+  }
 
  
